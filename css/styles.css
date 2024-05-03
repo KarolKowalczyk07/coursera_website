@@ -6,11 +6,16 @@ body {
 }
 
 /** HEADER **/
+h1, h2, h3, h4, p, div {
+  text-align: center; /* Center all headings */
+}
+
 #header-nav {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
 }
+
 
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
@@ -19,9 +24,11 @@ body {
   margin: 10px 15px 10px 0;
 }
 
+
 .navbar-brand {
   padding-top: 25px;
 }
+
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
