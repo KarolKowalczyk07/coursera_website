@@ -1,44 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>Food LLC</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
+</head>
 <body>
-  <!-- fake comment -->
-  <header>
+<header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
-          </a>
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="pull-left visible-md visible-lg">
+                </a>
 
-          <div class="navbar-brand">
-            <a href="index.html"><h1>David Chu's China Bistro</h1></a>
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>Food, LLC</h1></a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="menu-categories.html">
+                            <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Chicken</a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Beef</a>
+                    </li>
+                    <li>
+                        <a href="awards.html">
+                            <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Sushi</a>
+                    </li>
+                    <li id="phone" class="hidden-xs">
+                        <a href="tel:410-602-5008">
+                            <span>410-602-5008</span></a><div>* We Deliver</div>
+                    </li>
+                </ul><!-- #nav-list -->
+            </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+    </nav><!-- #header-nav -->
+</header>
+
+<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+        <span class="glyphicon glyphicon-earphone"></span>
+        410-602-5008
+    </a>
+</div>
+<div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+<!-- Main Content Section -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Our Menu</h2>
             <p>
-              <img src="images/star-k-logo.png" alt="Kosher certification">
-              <span>Kosher Certified</span>
+                We offer a wide selection of delicious Chinese dishes made with the freshest ingredients.
+                Check out our menu and come visit us for an unforgettable dining experience!
             </p>
-          </div>
-
-
+            <h3>Featured Dishes</h3>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4>Sesame Chicken</h4>
+                    <p>Crispy chicken tossed in a sweet and savory sauce.</p>
+                    <img src="images/sesame_chicken.jpg" class="img-responsive img-thumbnail" alt="Featured Dish">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4>Beef with Broccoli</h4>
+                    <p>Tender beef and fresh broccoli stir-fried to perfection.</p>
+                    <img src="images/beef_and_broccoli.jpg" class="img-responsive img-thumbnail" alt="Featured Dish">
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h4>Shrimp Fried Rice</h4>
+                    <p>Delicious shrimp with fluffy rice and mixed vegetables.</p>
+                    <img src="images/shrimp_fried_rice.jpg" class="img-responsive img-thumbnail" alt="Featured Dish">
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
+    </div>
+</div>
 
-  </header>
+<!-- Footer Section -->
+<footer class="text-center">
+    <hr>
+    <p>&copy; 2024 David Chu's China Bistro</p>
+</footer>
 
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
